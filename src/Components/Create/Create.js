@@ -26,7 +26,8 @@ const Create = () => {
             userId:user.uid,
             createdAt:date.toDateString()
           })
-            
+            navigate("/")
+      
         })
       })
   }
