@@ -1,7 +1,7 @@
 import React, { useState , useContext } from 'react';
 import {useNavigate} from 'react-router-dom'
 import Logo from '../../olx-logo.png';
-import { FirebaseContext } from '../../store/FirebaseContext';
+import { FirebaseContext } from '../../store/Context';
 import './Signup.css';
 
 export default function Signup() {
@@ -38,8 +38,6 @@ export default function Signup() {
             type="text"
             value={username}
             onChange={(e)=>setUsername(e.target.value)}
-            
-  
           />
           <br />
           <label htmlFor="fname">Email</label>
