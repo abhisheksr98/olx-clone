@@ -39,6 +39,8 @@
   height: 270px;
   display: inline-block;
   cursor: pointer;
+  background-color: lightblue;
+  border-radius: 30px;
 }
 
 .card .favorite {

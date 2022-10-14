@@ -26,12 +26,12 @@ function View() {
       <div className="rightSection">
         <div className="productDetails">
           <p>&#x20B9; {postDetails.price} </p>
-          <span>YAMAHA R15V3</span>
-          <p>Two Wheeler</p>
-          <span>Tue May 04 2021</span>
+          <p>{postDetails.cateogory}</p>
+          <p>{postDetails.name}</p>
+      
         </div>
       { userDetails && <div className="contactDetails">
-          <p>Seller details</p>
+          <p>SELLER DETAILS</p>
           <p>{userDetails.username}</p>
           <p>{userDetails.phone}</p>
         </div>}

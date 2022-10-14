@@ -7,22 +7,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    background-color: aqua;
   }
   
   .signupParentDiv .input {
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    outline-color: transparent;
+    border-color: black;
+    border-width: 2px;
   }
   
   .signupParentDiv button {
     width: 100%;
     height: 48px;
-    /* border-color: transparent; */
     background-color: #002f34;
     color: whitesmoke;
     font-weight: 900;
+    cursor: pointer;
   }
   .signupParentDiv button:hover {
     background-color: white;

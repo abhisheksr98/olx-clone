@@ -7,12 +7,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    background-color: lightblue;
   }
   .input {
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    outline-color: transparent;
+    border-color: black;
+    border-width: 2px;
   }
   
   .uploadBtn {

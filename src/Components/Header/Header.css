@@ -9,7 +9,7 @@
 .headerChildDiv {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -84,18 +84,7 @@
   align-items: center;
 }
 
-.language span {
-  /* justify-content: space-between;
-  align-items: center; */
-  font-size: 15px;
-  white-space: normal;
-  text-overflow: ellipsis;
-  font-weight: bolder;
-  margin-right: 5px;
-}
 
-.language svg {
-}
 
 .span {
   text-decoration: none;
@@ -109,7 +98,8 @@
 .loginPage hr {
   margin: 0;
   background-color: black;
-  height: 2px;
+  height: 3px;
+  cursor: pointer;
 }
 
 .loginPage a{
