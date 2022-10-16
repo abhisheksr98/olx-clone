@@ -4,6 +4,7 @@ import './Create.css';
 import Header from '../Header/Header';
 import {FirebaseContext,AuthContext} from '../../store/Context'
 const Create = () => {
+  
   const {firebase} =useContext(FirebaseContext)
   const {user} = useContext(AuthContext)
   const navigate = useNavigate()
@@ -13,8 +14,7 @@ const Create = () => {
   const[image , setImage] = useState(null);
   const date = new Date()
   
-  const handleSubmit = () =>{
-    
+  const handleSubmit = () =>{ 
       firebase.storage().ref(`/image/${image.name}`).put(image).then(({ref})=>{
         ref.getDownloadURL().then((url)=>{
           console.log('url')

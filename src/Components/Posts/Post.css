@@ -1,9 +1,21 @@
 .moreView {
   margin: 16px 16px 24px;
   padding: 16px 16px 32px;
-  background-color: #ebeeef;
-  border-radius: 4px;
+  background-color: antiquewhite;
+  border-radius: 25px;
 }
+.moreViews {
+  margin: 16px 16px 24px;
+  padding: 16px 16px 32px;
+  background-color: burlywood;
+  border-radius: 40px;
+}
+.moreViews .cards {
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 
 .heading {
   display: flex;
@@ -43,6 +55,7 @@
   border-radius: 30px;
 }
 
+
 .card .favorite {
   display: flex;
   justify-content: flex-end;
@@ -56,7 +69,8 @@
 }
 
 .card .image img {
-  height: 100px;
+  height: 120px;
+  width: 150px;
   max-width: 100%;
   max-height: 100%;
   min-height: 100%;
@@ -64,6 +78,7 @@
 }
 .card .content .rate {
   margin-top: 10px;
+  margin-bottom: 10px;
   font-size: larger;
   font-weight: bold;
 }
@@ -86,4 +101,10 @@
 .recommendations .heading span {
   font-size: 24px;
   color: #002f34;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
